@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+}
+
+.header {
+  background-color: blue;
+  color: white;
+  font-family: "Great Vibes", cursive;
+  letter-spacing: 2px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  height: 20vh;
+}
+.mainbody {
+  display: flex;
+  /* flex-wrap: wrap; */
+  flex-direction: column;
+  align-items: center;
+}
+.box {
+  border-style: groove;
+  width: 30vw;
+  height: 30vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.largebox {
+  border-style: groove;
+  width: 60vw;
+  height: 70vh;
+}
+
+.first {
+  display: flex;
+}
+.second {
+  display: flex;
+}
+.third {
+  display: flex;
+}
+.fourth {
+  display: flex;
+}
+.fourtext {
+  margin-top: 10vh;
+}
+
+.fishgif {
+  width: 45vw;
+  height: 45vh;
+  /* frame-border: 0; */
+}
+
+.button {
+  width: 25vw;
+  margin-left: 2vw;
+}
+.inputbox {
+  width: 15vw;
+  margin-left: 7vw;
+}
