@@ -92,7 +92,7 @@ class App extends Component {
                 onChange={e => {
                   this.handleChange(e.target.value);
                 }}
-                placeholder="Type here"
+                placeholder="Type here to display below"
               />
               <p>{this.state.userInput}</p>
             </div>
@@ -115,7 +115,7 @@ class App extends Component {
                 onChange={() => {
                   this.stopTypeHandler();
                 }}
-                placeholder="Type n see response"
+                placeholder="Type to see response"
               />
               <p>{this.state.stopType}</p>
             </div>
@@ -129,7 +129,7 @@ class App extends Component {
                 onMouseLeave={() => {
                   this.exitBoxHandler();
                 }}
-                placeholder="Exit box n see"
+                placeholder="Exit box to see response"
               />
               <p>{this.state.exitResponse}</p>
             </div>
